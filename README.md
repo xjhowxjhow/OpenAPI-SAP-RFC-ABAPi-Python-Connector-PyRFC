@@ -20,10 +20,12 @@ Dependencies:
 ```bash
 Install Build Tools 2019 C in resources\vss\setup.exe
 ```
+-  Download [NW RFC SDK](https://support.sap.com/en/product/connectors/nwrfcsdk.html)
+   
 environment variables :
 
 ```bash
-  Move folder 'SAP' to 'C:\'
+  Create a folder called 'sap' with the files extracted from the RFC NEW SDK and Move in C:\'
   ADD to PATCH: 'C:\sap\nwrfcsdk\lib'
   CREATE environment variables  NAME:'SAPNWRFC_HOME' VALUE:'C:\sap\nwrfcsdk'
 ```
