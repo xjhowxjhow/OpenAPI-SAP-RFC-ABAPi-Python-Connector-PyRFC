@@ -154,9 +154,9 @@ class SapConnection:
                                 employee['ORG_ASSIGNMENT'][i]['INDICE'] = i
                                 employee['ORG_ASSIGNMENT'][i]['ORG_UNIT']  = employee_docs['ORG_ASSIGNMENT'][i]['ORG_UNIT']     #SETOR
                                 employee['ORG_ASSIGNMENT'][i]['POSITION']  = employee_docs['ORG_ASSIGNMENT'][i]['POSITION']     #CARGO
-                                employee['ORG_ASSIGNMENT'][i]['COMP_CODE'] = employee_docs['ORG_ASSIGNMENT'][i]['COMP_CODE']    #CD_EMPR
-                                employee['ORG_ASSIGNMENT'][i]['P_SUBAREA'] = employee_docs['ORG_ASSIGNMENT'][i]['P_SUBAREA']    #CD_CLFUNC
-                                employee['ORG_ASSIGNMENT'][i]['PERS_AREA'] = employee_docs['ORG_ASSIGNMENT'][i]['PERS_AREA']    #CD_LOTA
+                                employee['ORG_ASSIGNMENT'][i]['COMP_CODE'] = employee_docs['ORG_ASSIGNMENT'][i]['COMP_CODE']    #EMPRESA
+                                employee['ORG_ASSIGNMENT'][i]['P_SUBAREA'] = employee_docs['ORG_ASSIGNMENT'][i]['P_SUBAREA']    #POSICAO 
+                                employee['ORG_ASSIGNMENT'][i]['PERS_AREA'] = employee_docs['ORG_ASSIGNMENT'][i]['PERS_AREA']    #UNIDADE
 
 
 
