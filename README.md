@@ -36,7 +36,7 @@ environment variables :
 MainBaseModel.py
 ```python
 if __name__ == '__main__':
-    uvicorn.run("MainBaseModel:app", port=8080, host='0.0.0.0', reload=True)
+    uvicorn.run("MainBaseModel:app", port=3000, host='0.0.0.0', reload=True)
 
 ```
 
@@ -120,3 +120,33 @@ Send JSon in Body:raw/Json for parameters and connection
 ```
 
 
+#### RFCs/ABAPI Receives the Organizational Structure of Employees by payroll
+```http
+  POST /funcinario2
+```
+
+Send JSon in Body:raw/Json for parameters and connection
+```json
+{
+    "CONFIG": {
+        "ashost":"XX.XX.XX.XX",
+        "sysnr": "XX",
+        "client":"XXX",
+        "user":  "XXXXXXX",
+        "passwd":"XXXXXX",
+        "lang":  "pt"
+    },
+    "LIST_PAYROLL": [ Inform at least 1 payroll
+        "AA",
+        "BB",
+        "CC",
+        "DD",
+        "EE",
+        "FF",
+        "GG",
+        "HH",
+        "II",
+        "JJ"
+    ],
+    "PAGE": "1" ///Number Pagination // Return 50 Items Default
+}
